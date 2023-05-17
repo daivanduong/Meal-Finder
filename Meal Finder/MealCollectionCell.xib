@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="mealCollectionCell" id="gTV-IL-0wX" customClass="MealCollectionCell" customModule="Meal_Finder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="342" height="293"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="342" height="293"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gH8-yh-JR5">
+                        <rect key="frame" x="0.0" y="0.0" width="342" height="293"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hz7-HJ-C1D">
+                                <rect key="frame" x="0.0" y="0.0" width="342" height="293"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="hz7-HJ-C1D" firstAttribute="leading" secondItem="gH8-yh-JR5" secondAttribute="leading" id="H2X-f7-82b"/>
+                            <constraint firstAttribute="trailing" secondItem="hz7-HJ-C1D" secondAttribute="trailing" id="H9s-QK-QUS"/>
+                            <constraint firstItem="hz7-HJ-C1D" firstAttribute="top" secondItem="gH8-yh-JR5" secondAttribute="top" id="axE-fg-41c"/>
+                            <constraint firstAttribute="bottom" secondItem="hz7-HJ-C1D" secondAttribute="bottom" id="z97-2G-PlS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="gH8-yh-JR5" secondAttribute="bottom" id="Bi3-U5-2BU"/>
+                <constraint firstItem="gH8-yh-JR5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Nib-k7-nEE"/>
+                <constraint firstAttribute="trailing" secondItem="gH8-yh-JR5" secondAttribute="trailing" id="sXs-44-YLU"/>
+                <constraint firstItem="gH8-yh-JR5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vYU-Sf-zhh"/>
+            </constraints>
+            <size key="customSize" width="342" height="293"/>
+            <connections>
+                <outlet property="imgMeal" destination="hz7-HJ-C1D" id="xW8-If-7vG"/>
+                <outlet property="viewCollec" destination="gH8-yh-JR5" id="b76-nX-MTi"/>
+            </connections>
+            <point key="canvasLocation" x="134.35114503816794" y="51.760563380281695"/>
+        </collectionViewCell>
+    </objects>
+</document>
