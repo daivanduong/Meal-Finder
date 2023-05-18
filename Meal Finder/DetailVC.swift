@@ -223,7 +223,7 @@ class DetailVC: UIViewController {
     @objc func addMealFavoriteToArr() {
 
 
-        let alert = UIAlertController(title: "Add to favorite meal", message: nil , preferredStyle: .alert)
+        let alert = UIAlertController(title: "Add to favorite", message: nil , preferredStyle: .alert)
         let actionYes = UIAlertAction(title: "Yes", style: .default) { action in
             self.addMealFavorite()
         }
