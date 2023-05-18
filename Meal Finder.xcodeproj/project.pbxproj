@@ -125,6 +125,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B55F80872A16019400CDFDDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD0E0629D3DEB200F0C9EC /* Main.storyboard */,
+				B5AD0E3329D3EF0400F0C9EC /* MealCollectionCell.xib */,
+				B5617BDF2A0CC1D1009F481D /* TableViewCell.xib */,
+				B56026E42A13649C00122684 /* InggredientCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B55F80882A1601B700CDFDDA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B55E734929D43B5A0061158E /* DetailVC.swift */,
+				B5AD0E0429D3DEB200F0C9EC /* ViewController.swift */,
+				B5AD0E3229D3EF0400F0C9EC /* MealCollectionCell.swift */,
+				B56C968A2A0B79F80078B785 /* FavoriteVC.swift */,
+				B5617BDE2A0CC1D1009F481D /* TableViewCell.swift */,
+				B528C8F52A0E8F1500A3E3DD /* HomeVC.swift */,
+				B528C8F72A0E8F4E00A3E3DD /* HistoryVC.swift */,
+				B56026E32A13649C00122684 /* InggredientCell.swift */,
+				B5F6465A2A15DDA20059AD8D /* Checkbox.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B55F80892A16024500CDFDDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD0E3029D3E68D00F0C9EC /* MealClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B5AD0DF429D3DEB200F0C9EC = {
 			isa = PBXGroup;
 			children = (
@@ -150,25 +185,14 @@
 		B5AD0DFF29D3DEB200F0C9EC /* Meal Finder */ = {
 			isa = PBXGroup;
 			children = (
-				B55E734929D43B5A0061158E /* DetailVC.swift */,
-				B5AD0E0429D3DEB200F0C9EC /* ViewController.swift */,
-				B5AD0E3229D3EF0400F0C9EC /* MealCollectionCell.swift */,
-				B56C968A2A0B79F80078B785 /* FavoriteVC.swift */,
-				B5617BDE2A0CC1D1009F481D /* TableViewCell.swift */,
-				B528C8F52A0E8F1500A3E3DD /* HomeVC.swift */,
-				B528C8F72A0E8F4E00A3E3DD /* HistoryVC.swift */,
-				B5AD0E3029D3E68D00F0C9EC /* MealClass.swift */,
-				B5AD0E0629D3DEB200F0C9EC /* Main.storyboard */,
-				B5AD0E3329D3EF0400F0C9EC /* MealCollectionCell.xib */,
-				B5617BDF2A0CC1D1009F481D /* TableViewCell.xib */,
+				B55F80892A16024500CDFDDA /* Model */,
+				B55F80882A1601B700CDFDDA /* Controller */,
+				B55F80872A16019400CDFDDA /* View */,
 				B5AD0E0029D3DEB200F0C9EC /* AppDelegate.swift */,
 				B5AD0E0229D3DEB200F0C9EC /* SceneDelegate.swift */,
 				B5AD0E0929D3DEB400F0C9EC /* Assets.xcassets */,
 				B5AD0E0B29D3DEB400F0C9EC /* LaunchScreen.storyboard */,
 				B5AD0E0E29D3DEB400F0C9EC /* Info.plist */,
-				B56026E32A13649C00122684 /* InggredientCell.swift */,
-				B56026E42A13649C00122684 /* InggredientCell.xib */,
-				B5F6465A2A15DDA20059AD8D /* Checkbox.swift */,
 			);
 			path = "Meal Finder";
 			sourceTree = "<group>";
