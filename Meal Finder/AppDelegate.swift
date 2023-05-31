@@ -13,6 +13,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        
+        if let data_history = UserDefaults.standard.data(forKey: "MealHistory") {
+            arrayMealHistory = try! PropertyListDecoder().decode([Meal_Data].self, from: data_history)
+        } else {
+            UserDefaults.standard.set((), forKey: "MealHistory")
+        }
+        
+        if let data_favorite = UserDefaults.standard.data(forKey: "MealFavorite") {
+            arrayMealFavorite = try! PropertyListDecoder().decode([Meal_Data].self, from: data_favorite)
+        } else {
+            UserDefaults.standard.set((), forKey: "MealFavorite")
+        }
         // Override point for customization after application launch.
         return true
     }
