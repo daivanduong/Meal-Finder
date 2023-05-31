@@ -21,7 +21,7 @@ class HistoryVC: UIViewController {
         setupView()
         
         if let data_history = UserDefaults.standard.data(forKey: "MealHistory") {
-            arrayMealHistory = try! PropertyListDecoder().decode([Meal_Data].self, from: data_history)
+           
         }
     }
     

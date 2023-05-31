@@ -144,8 +144,8 @@
 				B5AD0E3229D3EF0400F0C9EC /* MealCollectionCell.swift */,
 				B56C968A2A0B79F80078B785 /* FavoriteVC.swift */,
 				B5617BDE2A0CC1D1009F481D /* TableViewCell.swift */,
-				B528C8F52A0E8F1500A3E3DD /* HomeVC.swift */,
 				B528C8F72A0E8F4E00A3E3DD /* HistoryVC.swift */,
+				B528C8F52A0E8F1500A3E3DD /* HomeVC.swift */,
 				B56026E32A13649C00122684 /* InggredientCell.swift */,
 				B5F6465A2A15DDA20059AD8D /* Checkbox.swift */,
 			);
